@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #a6aa6a31, #324055);
+}
+
+.calculator{
+    border: 1px solid #566480;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(96, 106, 126, 0.5);
+
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #141212;
+}
+
+input::placeholder{
+    color: #0f0d0d;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #0f0c0c;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.equalBtn{
+    background-color: #c9be2ce8;
+}
+
+.operator{
+    color: #eaee0a;
+}
+
+
+/* 
+
+
+.calculator form 
+
+form .display{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+form .display input{
+  
+  flex: 1;
+  font-size: 45px;
+  box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+}
+form input.equal{
+  width: 145px;
+  background: #d8d4cc;
+}
+form input.operator{
+    color: #2a4944;
+}
+form input.cl{
+  background: #d8d4cc
+} */
